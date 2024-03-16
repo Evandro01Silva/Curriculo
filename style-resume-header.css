@@ -42,6 +42,12 @@ body {
     line-height: 25px;
 }
 
+@media (max-width: 768px) {
+    .resume-header a {
+        font-size: medium;
+    }
+}
+
 .resume-header .link-margin-top {
     margin-top: 20px;
 }

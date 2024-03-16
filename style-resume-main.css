@@ -1,0 +1,57 @@
+.resume-main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 25px 25px;
+    text-align: left;
+
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 100%;
+    justify-content: center;
+}
+
+@media (min-width: 769px) {
+    .resume-main {
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+.resume-main h2 {
+    color: #3F75D1;
+    font-size: 1.8rem;
+    margin: 20px 0 15px 0;
+}
+
+.resume-main p {
+    color: #404259;
+    font-size: 1.3rem;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.resume-main .line-space {
+    margin-bottom: 5px;
+}
+
+.resume-main ul {
+    font-size: 1.3rem;
+}
+
+.resume-main .space-top-subtitle {
+    margin-top: 5px;
+}
+
+.resume-main .space-line-formacao {
+    line-height: 40px;
+}
+
+.resume-main .space-bottom-subtitle {
+    margin-bottom: 5px;
+}
+
+.resume-main .language-margins {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
